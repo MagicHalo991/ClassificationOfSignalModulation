@@ -218,3 +218,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Проект: данные, кэш, веса моделей, окружение
+data/raw/*
+!data/raw/.gitkeep
+data/cache/*
+!data/cache/.gitkeep
+checkpoints/*
+!checkpoints/.gitkeep
+.venv/
